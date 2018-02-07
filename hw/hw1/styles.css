@@ -1,0 +1,96 @@
+body {
+    background-color: #D1D1D1;
+    color: black;
+}
+            
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+            
+hr {
+    text-align: center;
+    width: 95%;
+}
+            
+h1 {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: black;
+}
+            
+nav a:hover {
+    border-bottom: 2px green solid;
+    font-size: 1.2em;
+    transition: .9s;
+    color: green;
+}            
+       
+.asymptotic_notation {
+    float: left;
+}
+
+div {
+    text-align: center;
+}
+
+em {
+    text-decoration: underline green;
+}
+
+table {
+    padding-left: 400px;
+}
+
+.row-uno {
+    text-align: center;
+}
+
+.row-dos {
+    text-align: left;
+}
+
+strong {
+    color: green;
+    text-decoration: underline black;
+}
+
+li {
+    color: green;
+}
+
+.pic {
+    text-align: center;
+    outline: 5px dotted green;
+}
+
+.column {
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+}

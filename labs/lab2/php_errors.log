@@ -1,0 +1,9 @@
+[05-Feb-2018 23:15:49 UTC] PHP Warning:  rand() expects exactly 2 parameters, 3 given in /home/ubuntu/workspace/jmejiacruz/labs/lab2/777/index.php on line 15
+[05-Feb-2018 23:15:49 UTC] PHP Stack trace:
+[05-Feb-2018 23:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jmejiacruz/labs/lab2/777/index.php:0
+[05-Feb-2018 23:15:49 UTC] PHP   2. rand() /home/ubuntu/workspace/jmejiacruz/labs/lab2/777/index.php:15
+[05-Feb-2018 23:16:12 UTC] PHP Warning:  rand() expects exactly 2 parameters, 3 given in /home/ubuntu/workspace/jmejiacruz/labs/lab2/777/index.php on line 24
+[05-Feb-2018 23:16:12 UTC] PHP Stack trace:
+[05-Feb-2018 23:16:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/jmejiacruz/labs/lab2/777/index.php:0
+[05-Feb-2018 23:16:12 UTC] PHP   2. rand() /home/ubuntu/workspace/jmejiacruz/labs/lab2/777/index.php:24
+[05-Feb-2018 23:39:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /home/ubuntu/workspace/jmejiacruz/labs/lab2/777/index.php on line 37
