@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Jordi Mejia's E-Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        
+        <!-- to add exteranl link to style css
+        <link href="hosting.csumb.edu/laramiguel/cst336/labs/portfolio/styles.css" 
+        rel="stylesheet"/>-->
+        
+        <!-- manually typed style css code -->
+        <style>
+            
+            body {
+                background-color: black;
+                color: white;
+            }
+            
+            header, nav {
+                text-align: center;
+            }
+            
+            hr {
+                text-align: center;
+                width: 95%;
+            }
+            
+            h1 {
+                font-family: 'Pacifico', cursive;
+                font-size: 4em;
+                margin-bottom: 0px;
+            }
+            
+            nav a {
+                padding: 15px;
+                padding-bottom: 4px;
+                text-decoration: none;
+                color: white;
+            }
+            
+            nav a:hover {
+                border-bottom: 2px blue solid;
+                font-size: 1.8em;
+                transition: .9s;
+            }
+            
+            #me, div {
+                float: left;
+            }
+            
+            #logo, footer {
+                clear: left;
+                text-align: center;
+                color: gray;
+            }
+           
+        </style>
+        
+    </head>
+<!-- closing head -->
+
+   
+
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1> Jordi Mejia </h1>
+            <h2> Portfolio </h2>
+        </header>
+        
+        <hr/>
+        
+        <!-- the three navigation links for my lab1 webpage -->
+        <nav>
+            <a href="index.html">Home</a>
+            <!--<a href="about.html">About</a>
+            <a href="contact.html">Contact Me</a> -->
+        </nav>
+        
+        <br/><br/>
+        
+        <!-- code to retrieve image with a "alt" explaining what the picture represents for disabled users -->
+        <figure id="me">
+            <img src="img/Me.png" alt="Jordi Mejia's picture" />
+        </figure>
+        
+        <br/><br/>
+        
+        <!-- text of the home page  -->
+        <div>
+            <br/>
+            
+            Hello!<br/>
+            <p>
+                Thank you for visiting my professional portfolio website.
+            </p>
+            
+            <p>
+                My name is Jordi J. Mejia Cruz and I am currently working on my Bachelors of Science Degree in Computer Science and Information Technology. 
+                I have gained multiple internship experiences through the non-profit organization Ocean Discovery Institute that has helped me develop my communication, networking, leadership, and time management skills.
+                I realized my passion for computer science and seek new opportunities to further develop essential work skills for my career in order to stand out when applying to future job opportunities.
+                I am currently learning and getting familiar with C++, Python and Java coding as a part of the courses I am taking at CSU Monterey Bay.
+            </p>
+            
+            <p>
+                Feel free to contact me!
+            </p>
+            
+            <br/><br/>
+            
+            <!-- code for the quote -->
+            <em>
+                "With ordinary talent and extraordinary <strong>perseverance</strong> all things are attainable" 
+            </em>
+            
+            <br/>
+            
+            -Thomas F. Buxton
+            
+            
+        </div>
+        
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            
+            <hr>
+            
+            <figure id="logo">
+                <img src="img/logo.png" alt="California State University Monterey Bay Otter logo" />
+            </figure>
+            
+            CST 300: Major ProSeminar. 2018&copy; Mejia
+            <br/>
+            
+            <strong>Disclaimer:</strong> This webpage is for academic purposes only.
+            <br/>
+            
+            
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Lab 1: Jordi Mejia's Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        
+        <!-- manually typed style css code -->
+        <style>
+            
+            body {
+                background-color: black;
+                color: white;
+            }
+            
+            header, nav {
+                text-align: center;
+            }
+            
+            hr {
+                text-align: center;
+                width: 95%;
+            }
+            
+            h1 {
+                font-family: 'Pacifico', cursive;
+                font-size: 4em;
+                margin-bottom: 0px;
+            }
+            
+            nav a {
+                padding: 15px;
+                padding-bottom: 4px;
+                text-decoration: none;
+                color: white;
+            }
+            
+            nav a:hover {
+                border-bottom: 2px blue solid;
+                font-size: 1.8em;
+                transition: .9s;
+            }
+            
+            table {
+                border: 2px solid black;
+                margin: 0px auto;
+            }
+            
+            td {
+                padding-right: 10px;
+                font-size: 1.3em;
+                border: 1px solid black;
+                text-align: center;
+            }
+            
+            ul {
+                text-align: left;
+                padding-left: 400px;
+            }
+            
+            #table-header {
+                background-color: #005b96;
+            }
+            
+            .table-row {
+                background-color: #3CB371;
+            }
+            
+            span {
+                color: purple;
+            }
+            
+            #logo, footer {
+                text-align: center;
+                color: gray;
+            }
+            
+        </style>
+        
+        
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1> Jordi Mejia </h1>
+            <h2> Portfolio </h2>
+        </header>
+
+        <hr/>
+        
+        <!-- the three navigation links for my lab1 webpage -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+        
+        <br/><br/>
+
+
+        <div id="content">
+            
+            <!-- Create the table to hold the experience level-->
+            <table>
+                <tr id="table-header">
+                    <td><strong>Programming Language</strong></td>
+                    <td><strong>Years of Experience</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>Java</td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-row">
+                    <td>C++</td>
+                    <td>2</td>
+                </tr>
+                <tr class="table-row">
+                    <td>PHP</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            
+        </div>
+        
+        <br/>
+        
+        <!-- unsorted list of hobbies -->
+        <ul>
+            <li><span>Video Games</span>: I own two consoles and like all games but my favorite is Fortnite.</li>
+            <li><span>Snorkeling</span>: I love the ocean and snorkeling allows me to enjoy its marine life.</li>
+            <li><span>Music</span>: I love all kinds of music but my favorite is Rock n Roll and Punk Rock.</li>
+            <li><span>Programming</span>: I spent at least two hours every day using and learning programming languages.</li>
+        </ul>
+        
+        <br/>
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            
+            <hr>
+            
+            <figure id="logo">
+                <img src="img/logo.png" alt="California State University Monterey Bay Otter logo" />
+            </figure>
+            
+            CST 336: Internet Programming. 2018&copy; Mejia
+            <br/>
+            
+            <strong>Disclaimer:</strong> Some of the information in this webpage is false.
+            <br/>
+            
+            This webpage is for academic purposes only.
+            
+            
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    
+</html>

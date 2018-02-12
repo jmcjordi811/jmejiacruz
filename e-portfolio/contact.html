@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Lab 1: Jordi Mejia's Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        
+        <!-- to add exteranl link to style css
+        <link href="hosting.csumb.edu/laramiguel/cst336/labs/portfolio/styles.css" 
+        rel="stylesheet"/>-->
+        
+        <!-- manually typed style css code -->
+        <style>
+            
+            body {
+                background-color: black;
+                color: white;
+            }
+            
+            header, nav {
+                text-align: center;
+            }
+            
+            hr {
+                text-align: center;
+                width: 95%;
+            }
+            
+            h1 {
+                font-family: 'Pacifico', cursive;
+                font-size: 4em;
+                margin-bottom: 0px;
+            }
+            
+            nav a {
+                padding: 15px;
+                padding-bottom: 4px;
+                text-decoration: none;
+                color: white;
+            }
+            
+            nav a:hover {
+                border-bottom: 2px blue solid;
+                font-size: 1.8em;
+                transition: .9s;
+            }
+            
+            #content {
+                padding-left: 300px;
+            }
+            
+            #logo, footer {
+                clear: left;
+                text-align: center;
+                color: gray;
+            }
+           
+        </style>
+        
+    </head>
+<!-- closing head -->
+
+   
+
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1> Jordi Mejia </h1>
+            <h2> Portfolio </h2>
+        </header>
+        
+        <hr/>
+        
+        <!-- the three navigation links for my lab1 webpage -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+        
+        <br/><br/>
+        
+        <!-- contact google form  -->
+        <div id="content">
+            
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqpuglBlQRdYylg2xA8RG6CsCjQHgcx-RVvXOoKQIIxlNicw/viewform?embedded=true" width="760" height="1200"></iframe>
+            
+        </div>
+        
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            
+            <hr>
+            
+            <figure id="logo">
+                <img src="img/logo.png" alt="California State University Monterey Bay Otter logo" />
+            </figure>
+            
+            CST 336: Internet Programming. 2018&copy; Mejia
+            <br/>
+            
+            <strong>Disclaimer:</strong> Some of the information in this webpage is false.
+            <br/>
+            
+            This webpage is for academic purposes only.
+            
+            
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
