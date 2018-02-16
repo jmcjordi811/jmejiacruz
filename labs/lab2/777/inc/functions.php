@@ -6,9 +6,13 @@
                         break;
                     case 1: $symbol = "cherry";
                         break;
-                    case 2: $symbol = "grapes";
+                    case 2: $symbol = "bar";
                         break;
-                    case 3: $symbol = "orange";
+                    case 3: $symbol = "grapes";
+                        break;
+                    case 4: $symbol = "orange";
+                        break;
+                    case 5: $symbol = "lemon";
                         break;
                 }
             
@@ -26,9 +30,14 @@
                             break;
                         case 1: $totalPoints = 900;
                             break;
-                        case 2: $totalPoints = 500;
+                        case 2: $totalPoints = 750;
+                            echo "<h1>or Free Dinner for One<h1/>";
                             break;
-                        case 3: $totalPoints = 250;
+                        case 3: $totalPoints = 500;
+                            break;
+                        case 4: $totalPoints = 250;
+                            break;
+                        case 5: $totalPoints = 100;
                             break;
                     }
                     echo "<h2> You won $totalPoints points! </h2>";
@@ -40,7 +49,7 @@
             
             function play () {
                 for ($i=1; $i < 4; $i++) {
-                    ${"randomValue" . $i} = rand(0,3);
+                    ${"randomValue" . $i} = rand(0,5);
                     displaySymbol(${"randomValue" . $i}, $i);
                 }
                 displayPoints($randomValue1, $randomValue2, $randomValue3);
