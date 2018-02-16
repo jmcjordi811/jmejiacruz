@@ -31,7 +31,7 @@
                         case 1: $totalPoints = 900;
                             break;
                         case 2: $totalPoints = 750;
-                            echo "<h1>or Free Dinner for One<h1/>";
+                            echo "<h1>Free Drink and<h1/>";
                             break;
                         case 3: $totalPoints = 500;
                             break;
