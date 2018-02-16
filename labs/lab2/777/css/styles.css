@@ -40,7 +40,6 @@
         left:530px;
         position:absolute;
         font-size:1.3em;
-        background-color: Transparent;
         border:none;
         outline:none; /*hides button outline when clicking on it*/
         font-weight:bold;
@@ -49,13 +48,13 @@
     }
     
     #output{
-     width:600px;   
-     margin:0 auto;
-     position:absolute;
-     text-align:center;
-     top:450px;
-     font-size:1.5em;
-     line-height: .7em;
+        width:600px;   
+        margin:0 auto;
+        position:absolute;
+        text-align:center;
+        top:450px;
+        font-size:1.5em;
+        line-height: .7em;
     }
     
     footer{
