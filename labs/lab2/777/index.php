@@ -32,9 +32,17 @@
         <br/><br/><br/><br/><br/><br/><br/><br/>
         <br/><br/><br/><br/><br/><br/><br/><br/>
         
-    
+        
+        
+        
         <footer>
             <br/><br/>
+            
+            <figure>
+                <img src="img/logo.png" alt="CSU Monterey Bay logo"/>
+                <img src="img/buddy_verified.png" alt="Buddy Badge Certified"/>
+            </figure>
+            
             Image sources:<br/>
             http://www.modern-canvas-art.com/ekmps/shops/robboweb1/images/slot-machine-symbols-pop-art-canvas-print-4252-p.jpg
             <br/>
