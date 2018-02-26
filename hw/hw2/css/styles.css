@@ -1,0 +1,49 @@
+    body {
+        background-image:url("../img/crapstable.jpg");
+        color: black;
+    }
+    
+    header {
+        text-align: center;
+        background-color: white;
+        background-color: rgba(255, 255, 255, .20);
+        text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+        color: orange;
+    }
+    
+    h2, h3 {
+        text-align: center;
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    table {
+        border: 1.5px solid black;
+        margin: 0px auto;
+        background-color: white;
+        background-color: rgba(255, 255, 255, .90);
+    }
+    
+    td {
+        border: 1px solid #008080;
+    }
+    
+    .dice, .table {
+        background-color: white;
+    }
+    
+    #logo, footer {
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+        color: orange;
+        background-color: white;
+        background-color: rgba(255, 255, 255, .20);
+    }
+    
+    
