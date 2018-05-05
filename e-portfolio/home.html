@@ -14,7 +14,7 @@ in html
     <head>
 
         <meta charset="utf-8" />
-        <title>E-Portfolio</title>
+        <title>Jordi Mejia's E-Portfolio</title>
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         
         <!-- to add exteranl link to style css
@@ -44,6 +44,10 @@ in html
                 margin-bottom: 0px;
             }
             
+            h2 {
+                text-align: center;
+            }
+            
             nav a {
                 padding: 15px;
                 padding-bottom: 4px;
@@ -57,14 +61,30 @@ in html
                 transition: .9s;
             }
             
-            #content {
-                padding-left: 300px;
+            #me, div {
+                float: left;
             }
             
             #logo, footer {
                 clear: left;
                 text-align: center;
                 color: gray;
+            }
+            
+            .column1 {
+                float: left;
+                width: 30%;
+            }
+            
+            .column2 {
+                float: left;
+                width: 60%;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
             }
            
         </style>
@@ -80,7 +100,7 @@ in html
     <body>
         
         <header>
-            <h1> Resume </h1>
+            <h1> Home </h1>
         </header>
         
         <hr/>
@@ -95,16 +115,52 @@ in html
         
         <br/><br/>
         
-        <!-- contact google form  -->
-        <div id="content">
+        <!-- code to retrieve image with a "alt" explaining what the picture represents for disabled users -->
+        
+        
+        <br/><br/>
+        
+       
+        
+            <div class="row">
+              <div class="column1">
+                <h2>Jordi J. Mejia Cruz</h2>
+                <figure id="me">
+                    <img src="img/Me.png" alt="Jordi Mejia's picture" />
+                </figure>
+              </div>
+              <div class="column2">
+                  
+                <br/><br/><br/>   
+                <h3>Welcome to my E-Portfolio site!!!</h3>
+                
+                <p>
+                    Thank you for visiting my professional portfolio website.
+                </p>
+                <p>
+                    I am Jordi J. Mejia Cruz, a student at CSU Monterey Bay. I am currently working on my Bachelors of Science Degree in Computer Science and Information Technology. I have gained multiple internship experiences through the non-profit organization Ocean Discovery Institute that has helped me develop my communication, networking, leadership, and time management skills. I realized my passion for computer science and seek new opportunities to further develop essential work skills for my career in order to stand out when applying to future job opportunities. I am currently learning and getting familiar with C++, Python and Java coding as a part of the courses I am taking at CSU Monterey Bay.
+                </p>
+                <p>
+                    Feel free to contact me!
+                </p>   
+                <p> 
+                    jmejiacruz@csumb.edu
+                </p>
             
+                <br/><br/>
             
+                <!-- code for the quote -->
+                <em>
+                    "With ordinary talent and extraordinary <strong>perseverance</strong> all things are attainable" 
+                </em>
             
-            <object data="doc/resume.pdf" type="application/pdf" width="850" height="1200">
-            alt : <a href="resume.pdf">test.pdf</a>
-            </object>
+                <br/>
             
-        </div>
+                    -Thomas F. Buxton
+              </div>
+            </div>
+            
+        
         
         
         <!-- This is the footer -->
@@ -119,9 +175,7 @@ in html
             
             CST 336: Internet Programming. 2018&copy; Mejia
             <br/>
-            
-            <strong>Disclaimer:</strong> Some of the information in this webpage is false.
-            <br/>
+        
             
             This webpage is for academic purposes only.
             
